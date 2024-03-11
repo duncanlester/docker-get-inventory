@@ -6,7 +6,7 @@
 	"image": "mcr.microsoft.com/devcontainers/typescript-node:1-20-bullseye",
 
 	"mounts": [
-		"source=/Users/duncanlester/dev/deployment/ansible/inventories,target=/workspaces/docker-get-inventory/src/inventories,type=bind,consistency=cached"
+		"source=/Users/duncanlester/dev/deployment/ansible/inventories,target=/workspaces/docker-get-inventory/inventories,type=bind,consistency=cached"
 	]
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
